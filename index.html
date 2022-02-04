@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="input js pro" />
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png" />
+    <meta name="msapplication-TileColor" content="#cc2b5e" />
+
+    <!-- links -->
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png" />
+
+    <!-- title -->
+    <title>پرسش و پاسخ</title>
+  </head>
+
+  <body>
+    <div class="container-div">
+      <div class="project">
+        <h4 class="title">این تایتل تست است برای ساتفاده از Sass</h4>
+        <p class="paragraph">ااین پاراگراف تست است برای استفاده از Sass</p>
+      </div>
+
+      <div class="header">
+        <div id="chooseLaw2">
+          <label class="container"
+            >a و حداقل یک b فقط دوتا
+            <input id="law2" type="radio" value="law2" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div id="chooseLaw1">
+          <label class="container">
+            زوج باشد b و a
+            <input id="law1" type="radio" value="law1" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+
+      <div id="main1" class="main-1">
+        <label for="input"> کلمه مورد نظر را وارد کنید </label>
+        <input id="input-a" placeholder="inter..." class="input input-a" />
+        <button class="btn" id="submit-btn1">تایید</button>
+      </div>
+
+      <div id="main2" class="main-2">
+        <label for="input"> کلمه مورد نظر را وارد کنید </label>
+        <input id="input-str" placeholder="inter..." class="input input-a" />
+        <button class="btn" id="submit-btn2">تایید</button>
+      </div>
+
+      <div class="result">
+        <span id="result"></span>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./build/main.js"></script>
+  </body>
+</html>
